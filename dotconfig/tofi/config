@@ -2,10 +2,10 @@
 
 ## use font paths instead of pango for performance
 font = "/usr/share/fonts/TTF/Iosevka-Regular.ttc"
-font-size = 19
+font-size = 28
 hint-font = false
 
-width = 42%
+width = 38%
 height = 33%
 border-width = 1
 outline-width = 0
