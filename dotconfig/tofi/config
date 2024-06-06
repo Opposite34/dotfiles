@@ -1,8 +1,8 @@
 # OVERALL
 
 ## use font paths instead of pango for performance
-font = "/usr/share/fonts/FiraCode/FiraCode-Regular.ttf"
-font-size = 18
+font = "/usr/share/fonts/TTF/Iosevka-Regular.ttc"
+font-size = 19
 hint-font = false
 
 width = 42%

@@ -5,7 +5,7 @@ This is not my full dotfiles. The reason is I based my kitty and hyprland from t
 
 ## Dependencies
 1. A windows manager (I use Hyprland, but pretty sure xorg stuffs should work)
-2. Font - I use FiraCode without patch as I have a separate NerdFont file. If you use kitty you should also do this as explained [here](https://sw.kovidgoyal.net/kitty/faq/#kitty-is-not-able-to-use-my-favorite-font)
+2. Font - I use Iosevka without patch as I have a separate NerdFont file. If you use kitty you should also do this as explained [here](https://sw.kovidgoyal.net/kitty/faq/#kitty-is-not-able-to-use-my-favorite-font)
 3. Background - I am using this background from [pexels](https://www.pexels.com/photo/calm-body-of-water-during-golden-hour-1631677/)
 
 ## Hyprland specific stuffs
