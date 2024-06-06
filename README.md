@@ -3,10 +3,24 @@
 ## Important
 This is not my full dotfiles. The reason is I based my kitty and hyprland from the default config and currently do not have time to properly organize them. However, they are mostly environment-specific anyway (nvidia stuffs, localized fontmapping, etc). Most of stuffs here should get you very close to my config.
 
+## General Details
+- Most of the colorschemes are based on the wallpaper or [catppuccin's palette](https://catppuccin.com/palette) (namely, catppuccin mocha)
+
+- List of the general programs I use:
+    * WM: Hyprland 
+    * Status bar: EWW
+    * Notification: mako
+    * Application launcher: tofi
+    * Terminal: kitty (with starship as the prompt)
+    * Editor: neovim
+    * Image viewer: imv
+    * Media player: mpv and termusic
+    * File explorer: vifm
+
 ## Dependencies
 1. A windows manager (I use Hyprland, but pretty sure xorg stuffs should work)
 2. Font - I use Iosevka without patch as I have a separate NerdFont file. If you use kitty you should also do this as explained [here](https://sw.kovidgoyal.net/kitty/faq/#kitty-is-not-able-to-use-my-favorite-font)
-3. Background - I am using this background from [pexels](https://www.pexels.com/photo/calm-body-of-water-during-golden-hour-1631677/)
+3. Wallpaper - I am using this wallpaper from [pexels](https://www.pexels.com/photo/calm-body-of-water-during-golden-hour-1631677/)
 
 ## Hyprland specific stuffs
 - [eww's get-current-workspace](./dotconfig/eww/scripts/get-current-workspace) is copied from [hyprland's guide](https://wiki.hyprland.org/Useful-Utilities/Status-Bars/#eww), and should be changed if you are not using hyprland.
