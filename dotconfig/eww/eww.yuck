@@ -1,0 +1,24 @@
+
+(defwidget bar []
+  (box
+    (box :class "widget" :orientation "h" :halign "start" current_workspace)
+    (box :class "widget" :orientation "h" :halign "end" time)
+  )
+)
+
+(deflisten current_workspace :initial "1" "scripts/get-current-workspace")
+(defpoll time :interval "10s" "date '+%a %H:%M'")
+
+(defwindow bar
+  :monitor 0
+  :stacking "fg"
+  :geometry (geometry :x 0 
+                      :y 0 
+                      :width "130%" 
+                      :height "1px"
+                      :anchor "top center")
+  :reserve (struts :side "top" :distance "4%")
+  :exclusive true
+  :focusable false
+  :namespace "mybar"
+  (bar))
