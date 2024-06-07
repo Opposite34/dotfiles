@@ -11,7 +11,8 @@ This is not my full dotfiles. The reason is I based my kitty and hyprland from t
     * Status bar: EWW
     * Notification: mako
     * Application launcher: tofi
-    * Terminal: kitty (with starship as the prompt)
+    * Terminal: kitty 
+    * Terminal prompt: starship (config based on the Tokyo Night preset with changes in palette)
     * Editor: neovim
     * Image viewer: imv
     * Media player: mpv and termusic
