@@ -76,3 +76,6 @@ style = "bg:#91d7e3 fg:#090c0c"
 
 [os.symbols]
 Arch = "  " 
+Ubuntu = "  "
+Debian = "  "
+Alpine = "  "
