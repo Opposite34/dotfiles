@@ -12,7 +12,7 @@ This is not my full dotfiles. The reason is I based my kitty and hyprland from t
     * Notification: mako
     * Application launcher: tofi
     * Shell: zsh
-    * Terminal: kitty 
+    * Terminal: kitty (foot + zellij on my surface laptop)
     * Terminal prompt: starship (config based on the Tokyo Night preset with changes in palette)
     * Editor: neovim
     * Image viewer: imv
