@@ -1,6 +1,6 @@
 [[language]]
 name = "markdown"
-language-servers = ["mdpls"]
+language-servers = ["marksman", "mdpls"]
 
 [language-server.mdpls]
 command = "/home/ping/.cargo/bin/mdpls"
