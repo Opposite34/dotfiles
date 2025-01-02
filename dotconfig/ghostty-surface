@@ -18,18 +18,13 @@ palette = 12=#9ccfd8
 selection-background = #403d52
 
 #KEYBINDS
-keybind = ctrl+shift+e=unbind
-keybind = ctrl+shift+o=unbind
-
 keybind = ctrl+alt+h=goto_split:left
 keybind = ctrl+alt+j=goto_split:bottom
 keybind = ctrl+alt+k=goto_split:top
 keybind = ctrl+alt+l=goto_split:right
 
-keybind = ctrl+shift+h=new_split:left
-keybind = ctrl+shift+j=new_split:down
-keybind = ctrl+shift+k=new_split:up
-keybind = ctrl+shift+l=new_split:right
+keybind = ctrl+shift+e=new_split:auto
+keybind = ctrl+shift+o=toggle_tab_overview
 
 #MISC
 background-opacity = 0.8
