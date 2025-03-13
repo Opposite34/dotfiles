@@ -1,0 +1,37 @@
+# OVERALL
+
+## use font paths instead of pango for performance
+font = "/usr/share/fonts/TTF/Iosevka-Regular.ttc"
+font-size = 28
+hint-font = false
+
+width = 38%
+height = 33%
+border-width = 1
+outline-width = 0
+
+padding-left = 2%
+padding-top = 3%
+
+background-color = #0009
+
+num-results = 4
+
+
+# SPECIFICS (mostly colors)
+
+## palette ref: catppuccin
+prompt-color = #f38ba8
+default-result-color = #9399b2
+
+input-color = #eeeeee
+selection-color = #eeeeee
+border-color = #1e1e2e
+
+
+## this is where the magic happens
+corner-radius = 10
+
+prompt-text = "> "
+prompt-padding = 20
+result-spacing = 6
