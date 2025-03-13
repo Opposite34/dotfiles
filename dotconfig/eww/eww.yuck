@@ -13,11 +13,11 @@
   :monitor 0
   :stacking "fg"
   :geometry (geometry :x 0 
-                      :y 0 
+                      :y "1%" 
                       :width "99%" 
                       :height "1px"
-                      :anchor "top center")
-  :reserve (struts :side "top" :distance "4%")
+                      :anchor "bottom center")
+  :reserve (struts :side "bottom" :distance "4%")
   :exclusive true
   :focusable false
   :namespace "mybar"

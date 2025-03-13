@@ -20,8 +20,8 @@ num-results = 4
 
 # SPECIFICS (mostly colors)
 
-## palette ref: catppuccin
-prompt-color = #f38ba8
+## palette ref: tokyo-night
+prompt-color = #7aa2f7
 default-result-color = #9399b2
 
 input-color = #eeeeee

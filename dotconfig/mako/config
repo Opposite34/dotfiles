@@ -1,15 +1,15 @@
 default-timeout=3000
-font=Iosevka Term 15
+font=Inter 14
 
 background-color=#313244
-border-radius=10
+border-radius=2
 
 [urgency=low]
-border-color=#a6adc8
+border-color=#737aa2
 
 [urgency=normal]
-border-color=#94e2d5
+border-color=#7aa2f7
 
 [urgency=critical]
-border-color=#f38ba8
+border-color=#ff757f
 default-timeout=0
