@@ -1,9 +1,9 @@
 format = """
-[░▒▓](#91d7e3)\
+[░▒▓](#6bdcf2)\
 $os\
-[](bg:#ed8796 fg:#91d7e3)\
+[](bg:#f3826b fg:#6bdcf2)\
 $directory\
-[](fg:#ed8796 bg:#394260)\
+[](fg:#f3826b bg:#394260)\
 $git_branch\
 $git_status\
 [](fg:#394260 bg:#212736)\
@@ -18,7 +18,7 @@ $hostname\
 \n$character"""
 
 [directory]
-style = "fg:#e5eeff bg:#ed8796"
+style = "fg:#e5eeff bg:#f3826b"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -32,31 +32,31 @@ truncation_symbol = "…/"
 [git_branch]
 symbol = ""
 style = "bg:#394260"
-format = '[[ $symbol $branch ](fg:#ed8796 bg:#394260)]($style)'
+format = '[[ $symbol $branch ](fg:#f3826b bg:#394260)]($style)'
 
 [git_status]
 style = "bg:#394260"
-format = '[[($all_status$ahead_behind )](fg:#ed8796 bg:#394260)]($style)'
+format = '[[($all_status$ahead_behind )](fg:#f3826b bg:#394260)]($style)'
 
 [nodejs]
 symbol = ""
 style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#ed8796 bg:#212736)]($style)'
+format = '[[ $symbol ($version) ](fg:#f3826b bg:#212736)]($style)'
 
 [rust]
 symbol = ""
 style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#ed8796 bg:#212736)]($style)'
+format = '[[ $symbol ($version) ](fg:#f3826b bg:#212736)]($style)'
 
 [golang]
 symbol = ""
 style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#ed8796 bg:#212736)]($style)'
+format = '[[ $symbol ($version) ](fg:#f3826b bg:#212736)]($style)'
 
 [php]
 symbol = ""
 style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#ed8796 bg:#212736)]($style)'
+format = '[[ $symbol ($version) ](fg:#f3826b bg:#212736)]($style)'
 
 [time]
 disabled = false
@@ -68,14 +68,15 @@ format = '[[   $time ](fg:#b8c0e0 bg:#1d2230)]($style)'
 disabled = false
 ssh_only = false
 detect_env_vars = ['OS_CONTAINER']
-format = '[$ssh_symbol](fg:#89dceb) on [$hostname](fg:#ed8796)'
+format = '[$ssh_symbol](fg:#89dceb) on [$hostname](fg:#f3826b)'
 
 [os]
 disabled = false
-style = "bg:#91d7e3 fg:#090c0c"
+style = "bg:#6bdcf2 fg:#090c0c"
 
 [os.symbols]
 Arch = "  " 
 Ubuntu = "  "
 Debian = "  "
 Alpine = "  "
+Gentoo = " 󰣨 "
