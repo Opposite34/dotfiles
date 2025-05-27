@@ -43,7 +43,7 @@ format = '[[($all_status$ahead_behind )](fg:#f3826b bg:#394260)]($style)'
 [nix_shell]
 symbol = "󱄅"
 style = "bg:#212736"
-format = '[[ $symbol $state ](fg:#f3826b bg:#394260)]($style)'
+format = '[[ $symbol $state ](fg:#6bdcf2 bg:#394260)]($style)'
 
 [nodejs]
 symbol = ""
